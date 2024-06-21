@@ -1,5 +1,11 @@
 # @sveltejs/kit
 
+## 2.5.18
+
+### Patch Changes
+
+- fix: prevent client import error when a `hooks.server` file imports a private environment variable ([#12195](https://github.com/sveltejs/kit/pull/12195))
+
 ## 2.5.17
 
 ### Patch Changes
